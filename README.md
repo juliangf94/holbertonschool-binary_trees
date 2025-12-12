@@ -5,7 +5,7 @@ This repository contains C implementations of various functions for working with
 All functions are implemented to handle standard C Binary Tree node structures and adhere to strict error handling requirements (e.g., handling NULL inputs).
 
 | File | Description | Function Prototype |
-| :... | :... | :... |
+| --- | --- | --- |
 | `binary_trees.h` | Header file containing the `binary_tree_t` structure definition and all function prototypes. | N/A |
 | `0-binary_tree_node.c` | Creates a new binary tree node. | `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);` |
 | `1-binary_tree_insert_left.c` | Inserts a node as the left-child of another node. | `binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);` |
